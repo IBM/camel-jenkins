@@ -1,0 +1,23 @@
+{
+  "JenkinsComponentBuilderFactory": {
+    "kind": "component",
+    "name": "jenkins",
+    "title": "Jenkins",
+    "description": "Interact with the Jenkins API.",
+    "deprecated": false,
+    "firstVersion": "2.15.0",
+    "label": "file,cloud,api",
+    "javaType": "org.apache.camel.component.jenkins.JenkinsComponent",
+    "supportLevel": "Stable",
+    "groupId": "org.apache.camel",
+    "artifactId": "camel-jenkins",
+    "version": "3.4.3",
+    "scheme": "jenkins",
+    "extendsScheme": "",
+    "syntax": "jenkins:type",
+    "async": false,
+    "consumerOnly": false,
+    "producerOnly": false,
+    "lenientProperties": false
+  }
+}
